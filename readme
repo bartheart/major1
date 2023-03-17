@@ -1,0 +1,87 @@
+//Author: Bemnet Merkebu
+- I wrote the main driving functions that are needed to implement your corrsponding functions for the bitwise operations.
+
+- Since only 2 of us responded to working on the assignment 
+    Tri Ngo is assigned to do implementation of:-
+        (1) Count Leading Zeroes
+        (2) Endian Swap
+    Bemnet Merkebu is assigned to do implmentation of:-
+        (3) Rotate-right
+        (4) Parity
+    If other group members respond, we might have to restructure the assigns
+
+- If possible, try to push your code to gitllab at the end of this week by sunday for further testing
+
+- ( Bemmnet ) have the copy of main (major1.c and major1.h) files backup, so feel free to edit and test your functions inside the menu calls
+    You have to include your .c file in major1.h:-
+        #include <stdio.h>
+    You will have comment where you have to call your function:-
+        //Rotate-right
+        (between 0 and 31, inclusively): ");
+                scanf("%i", &num2);
+                //Rotate-right function call
+
+                    !!!!!!!here
+
+
+                //bem
+                menu_option = menu();
+
+SAMPLE OUTPUT (user input shown in bold):
+$ ./bitwisemenu
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> -4
+Error: Invalid option. Please try again.
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> 1
+Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): -1 
+Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): 2 
+The number of leading zeroes in 2 is 30
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> 2
+Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): 1 
+Endian swap of 1 gives 16777216  
+4 of 5
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> 3
+Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): 1
+Enter the number of positions to rotate-right the input (between 0 and 
+31, inclusively): 1
+1 rotated by 1 position gives: 2147483648
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> 4
+Enter a 32-bit number (>= 1 and <= 4294967295, inclusively): 123
+Parity of 123 is 0
+Enter the menu option for the operation to perform:
+(1) Count Leading Zeroes
+(2) Endian Swap
+(3) Rotate-right
+(4) Parity
+(5) EXIT
+--> 5
+Program terminating. Goodbye...
